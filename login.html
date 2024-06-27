@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 style="text-align: center;">Вход в систему</h1>
+        <form action="login_process.php" method="post">
+            <div style="text-align: center; margin-bottom: 15px; font-size: 20px;"><label for="login">Логин:</label></div>
+            <div style="text-align: center;"><input class="large-input" type="text" id="login" name="login" required></div>
+            <div style="text-align: center; margin-bottom: 15px; margin-top: 15px;  font-size: 20px;"><label for="password">Пароль:</label></div>
+            <div style="text-align: center;" class="large-input"><input type="password" id="password" name="password" required></div>
+            <div style="text-align: center; margin-top: 15px;"><button type="submit">Войти</button></div>
+        </form>
+        <p style="text-align: center; color: black;">Еще нет аккаунта? <a href="registr.html" style="text-decoration: none;">Зарегистрироваться</a></p>
+    </section>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1 style="text-align: center;">Регистрация</h1>
+        <form action="register_process.php" method="post">
+            <div style="text-align: center; margin-bottom: 15px; font-size: 20px;"><label for="last_name">Фамилия:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="last_name" name="last_name" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="first_name">Имя:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="first_name" name="first_name" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="patronymic">Отчество:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="patronymic" name="patronymic"></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="passport_series">Серия паспорта:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="passport_series" name="passport_series" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="passport_number">Номер паспорта:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="passport_number" name="passport_number" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="phone">Телефон:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="text" id="phone" name="phone" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="birth_date">Дата рождения:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="date" id="birth_date" name="birth_date" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="password">Пароль:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="password" id="password" name="password" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px;"><label for="confirm_password">Подтверждение пароля:</label></div>
+            <div style="text-align: center;margin-bottom: 15px;"><input type="password" id="confirm_password" name="confirm_password" required></div>
+            
+            <div style="text-align: center;margin-bottom: 15px; font-size: 20px; "><button type="submit">Зарегистрироваться</button></div>
+        </form>
+        <div style="text-align: center;"><p>Уже есть аккаунт? <a href="login.html" style="text-decoration: none;">Войти</a></p></div>
+    </section>
+</body>
+</html>

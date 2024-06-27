@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить новость</title>
+</head>
+<body>
+    <header>
+   
+    </header>
+    <main>
+        <h1>Добавить новость</h1>
+        <form action="add_news.php" method="post" enctype="multipart/form-data">
+            <label for="title">Заголовок:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="content">Текст новости:</label>
+            <textarea id="content" name="content" required></textarea>
+            <label for="image">Изображение:</label>
+            <input type="file" id="image" name="image">
+            <input type="submit" value="Добавить новость">
+        </form>
+    </main>
+    <footer>
+  
+    </footer>
+</body>
+</html>
